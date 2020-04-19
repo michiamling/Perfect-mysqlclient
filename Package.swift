@@ -24,7 +24,7 @@ let package = Package(
 	name: "mysqlclient",
 	pkgConfig: "mysqlclient",
 	providers: [
-	           	.brew(["mysql"]),
+	           	.brew(["mysql@5.7"]),
 	           	.apt(["libmysqlclient-dev"]),
 	]
 )
